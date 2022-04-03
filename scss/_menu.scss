@@ -1,0 +1,39 @@
+/*======== M E N U ========*/
+
+.navbar{
+    padding: 0rem 1rem
+}
+
+.navbar-dark{
+    background-color: $azul;
+    font-weight: $font-semi-bold;
+    top:0;
+    text-transform: uppercase;
+
+    a{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        border-radius: 0.2rem;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+            color: $cian !important;
+        }
+    }
+
+    li{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+}
+
+.menu_opened{
+    pointer-events: all;
+}
+
+section {
+    scroll-margin-top: 4rem;
+}
+
+//para que se vea el titulo de la sección

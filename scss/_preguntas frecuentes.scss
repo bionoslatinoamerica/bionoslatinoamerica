@@ -1,0 +1,58 @@
+
+/*======== P R E G U N T A S  F R E C U E N T E S ========*/
+
+.preguntasFrecuentes{
+    background-color: $azul;
+    padding: 2rem;
+
+    h4{
+        color: $blanco;
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: $title-font;
+    }
+
+    .card{
+        border: 0 !important;
+        border-top: 1px solid rgba(0,0,0,.125) !important;
+        border-radius: 0 !important;
+        
+        .card-header {
+            background-color: $azul !important;
+
+            .btn {
+                color: white;
+                font-size: .9rem;
+
+                &:hover, &:focus{
+                    color: $cian;
+                }    
+            }
+            
+            .accordion-button::after {
+                background-image: none !important;
+                content: "+" !important;
+                font-size: 1.5rem;
+                font-weight: $font-bold;
+                position: relative;
+                bottom: 4px;
+              }
+              
+              .accordion-button:not(.collapsed)::after {
+                background-image: none !important;
+                content: "-" !important;
+                font-size: 1.5rem;
+                font-weight: $font-bold;
+                transform: unset !important;
+                position: relative;
+                bottom: 4px;
+              }
+        }
+
+        .card-body{
+            color: $blanco;
+            background-color: $azul;
+            text-align: justify;
+        }
+    }
+}

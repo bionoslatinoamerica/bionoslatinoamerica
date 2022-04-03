@@ -1,0 +1,96 @@
+
+/*======== L O G Í S T I C A ========*/
+
+.logistica{
+    padding-right: 0;
+    padding-left: 0;
+
+    .logisticaPrimeraParte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $gris;
+    
+        .logistica__izquierda{
+            flex: 40%;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem 2rem;
+    
+            h4{
+                color: $cian;
+                text-align: center;
+                font-family: $title-font;
+                margin-top: 1rem;
+            }
+    
+            p{
+                text-align: justify;
+                margin-top: 1rem;
+                font-size: $smaller-font-size;
+            }
+        }
+    
+        .logistica__derecha{
+            flex: 60%;
+            justify-content: center;
+            align-items: center;
+    
+            .carousel-inner{
+    
+                .item4::before{
+                    content: "";
+                    display: block;
+                    background: rgba(0,0,0,0.5);
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                }
+            
+                .carousel-capt{
+                    background-color: rgb(9, 48, 70, 0.7);
+                    position: absolute;
+                    right: 15%;
+                    left: 15%;
+                    top: 33%;
+                    z-index: 10;
+                    padding-top: 6rem;
+                    padding-bottom: 6rem;
+                    color: #fff;
+                    text-align: center;
+            
+                    h2{
+                        font-weight: $font-semi-bold;
+                        text-transform: uppercase;
+                    }
+                }
+            
+                .img-9{
+                    background-image: url("../multimedia/logistica-1-recibir-el-genoma.jpeg");
+                }
+                
+                .img-10{
+                    background-image: url("../multimedia/logistica-2-analisan.jpg");
+                }
+                
+                .img-11{
+                    background-image: url("../multimedia/logistica-3-informe-medico.jpg");
+                }
+
+                .img-12{
+                    background-image: url("../multimedia/logistica-4-proceso.png");
+                }
+                
+                .img-9, .img-10, .img-11, .img-12{
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 80vh;
+                    min-height: 100vh;
+                    background-attachment: scroll;
+                }
+            }
+        }
+    }
+}

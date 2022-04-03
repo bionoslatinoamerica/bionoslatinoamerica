@@ -1,0 +1,27 @@
+
+/*======== GENERAL ========*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+} //scroll suave
+
+body{
+
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+    color: $blanco !important;
+}
+

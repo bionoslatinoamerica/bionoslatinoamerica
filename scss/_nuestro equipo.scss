@@ -1,0 +1,167 @@
+
+/*======== N U E S T R O   E Q U I P O ========*/
+
+.nuestroEquipo{
+    padding-right: 0;
+    padding-left: 0;
+
+    .nuestroEquipoPrimeraParte{
+        display: flex;
+        background-color: $gris;
+    
+        .nuestroEquipo__izquierda{
+            flex: 40%;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem 2rem;
+    
+            h4{
+                color: $cian;
+                text-align: center;
+                margin-top: 1rem;
+                font-family: $title-font;
+            }
+    
+            p{
+                text-align: justify;
+                margin-top: 1rem;
+                font-size: $smaller-font-size;
+            }
+        }
+    
+        .nuestroEquipo__derecha{
+            flex: 60%;
+            justify-content: center;
+            align-items: center;
+    
+            .carousel-inner{
+    
+                .item1::before{
+                    content: "";
+                    display: block;
+                    background: rgba(0,0,0,0.5);
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                }
+            
+                .carousel-capt{
+                    background-color: rgb(9, 48, 70, 0.7);
+                    position: absolute;
+                    right: 15%;
+                    left: 15%;
+                    top: 33%;
+                    z-index: 10;
+                    padding-top: 6rem;
+                    padding-bottom: 6rem;
+                    color: #fff;
+                    text-align: center;
+            
+                    h2{
+                        font-weight: $font-semi-bold;
+                        text-transform: uppercase;
+                    }
+                }
+            
+                .img-1{
+                    background-image: url("../multimedia/nuestro-equipo-1.jpg");
+                }
+                
+                .img-2{
+                    background-image: url("../multimedia/logistica-2-analisan.jpg");
+                }
+                
+                .img-3{
+                    background-image: url("../multimedia/nuestro-equipo-3.jpg");
+                }
+                
+                .img-1, .img-2, .img-3{
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 80vh;
+                    min-height: 100vh;
+                    background-attachment: scroll;
+                }
+            }
+        }
+    }
+
+    .nuestroEquipoSegundaParte{
+        .nuestroEquipo__arriba{
+            background-color: $azul;
+            color: $blanco;
+            text-align: center;
+            padding: 2.5rem 12rem;
+            width: 100%;
+            height: auto;
+
+            p{
+                margin-bottom: 0;
+                line-height: 2;
+                font-size: 1.1rem;
+            }
+        }
+
+        .nuestroEquipo__abajo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .nuestroEquipo__mision{
+                flex: 50%;
+            }
+
+            .nuestroEquipo__compromiso{
+                flex: 50%;
+            }
+
+            .item2::before{
+                content: "";
+                display: block;
+                background: rgba(0,0,0,0.5);
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+            }
+
+            .nuestroEquipo-capt{
+                background-color: rgb(9, 48, 70, 0.7);
+                position: relative;
+                height: 13rem;
+                top: 18%;
+                z-index: 10;
+                padding: 2rem;
+                margin: 0 6rem;
+                color: #fff;
+                text-align: justify;
+        
+                h2{
+                    font-weight: $font-semi-bold;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }
+
+            .img-4{
+                background-image: url("../multimedia/mision.jpg");
+            }
+            
+            .img-5{
+                background-image: url("../multimedia/compromiso.jpg");
+            }
+            
+            .img-4, .img-5{
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 65vh;
+                min-height: 65vh;
+                background-attachment: scroll;
+            }
+        }
+    }
+}
+
