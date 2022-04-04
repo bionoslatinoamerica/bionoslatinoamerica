@@ -391,7 +391,7 @@ section {
 }
 .nuestrosServicios .nuestrosServiciosSegundaParte .card {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fdfdfd;
