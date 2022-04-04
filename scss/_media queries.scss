@@ -33,11 +33,10 @@
     .nuestrosServicios {
         .nuestrosServiciosSegundaParte {
             padding: 2rem 1rem;
-
+            
             .card {
-                height: 95vh;
                 padding: 1rem;
-
+                height: 100%;
                 &:hover {
                     transform: none;
                     transition: none;
@@ -140,7 +139,7 @@
 
             .card {
                 width: 100%;
-                height: 100vh;
+                height: 100%;
                 padding: 0.7rem;
 
                 &:hover {
@@ -153,6 +152,7 @@
                 }
 
                 .card-body {
+                    
                     padding: 1rem 0.7rem;
 
                     .card-title {
@@ -307,7 +307,7 @@
 
             .card {
                 width: 100%;
-                // height: 100vh;
+                height: 100vh;
                 padding: 0.3rem;
 
                 &:hover {
@@ -320,6 +320,7 @@
                 }
 
                 .card-body {
+                    height: auto;
                     padding: 1rem 0.7rem;
 
                     .card-title {
@@ -1971,7 +1972,7 @@
             padding: 0rem 1rem;
 
             .card {
-                height: 82vh;
+                // height: 82vh;
                 padding: 0.7rem;
                 margin-bottom: 1rem;
 
@@ -1990,6 +1991,7 @@
 
                 .card-body {
                     padding: .5rem;
+                    height: auto;
 
                     .card-title {
                         font-size: 1rem;
@@ -2365,6 +2367,7 @@
                 }
 
                 .card-body {
+                    height: auto;
                     padding: .5rem;
 
                     .card-title {
@@ -2522,6 +2525,382 @@
 
             position: relative;
             top: 8%;
+
+            .icono {
+
+                a {
+
+                    img {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        margin-bottom: 0.5rem;
+                        text-align: center;
+                    }
+
+                    p {
+                        font-size: 0.7rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:355px) and (orientation: portrait) {
+    /*======== P O R T A D A  I N D E X ========*/
+
+    .portadaIndex {
+        background-image: url(../multimedia/portada-index-vertical.png);
+
+        .contenedorBotones {
+            .botones {
+                min-width: 8rem;
+                height: 2.5rem;
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    /*======== P O R T A D A  P A C I E N T E  1 ========*/
+    .portadaPacienteSuperior,
+    .portadaPacienteInferior,
+    .portadaProfesionalSuperior,
+    .portadaProfesionalInferior {
+        height: 80vh;
+        background-position: top right;
+        padding: 0 2rem;
+
+        .titulo {
+            font-size: 1.2rem;
+        }
+    }
+
+    /*======== M E N Ú ========*/
+    .navbar {
+        padding: none;
+    }
+
+    .navbar-dark {
+        font-size: .7rem;
+
+        .navbar-brand {
+            img {
+                width: 110px;
+                height: 40px;
+            }
+        }
+
+        .navbar-toggler {
+            font-size: 1.1rem;
+        }
+    }
+
+
+    /*======== N U E S T R O  E Q U I P O ========*/
+    .nuestroEquipo {
+
+        .nuestroEquipoPrimeraParte {
+            display: flex;
+            flex-direction: column;
+
+            .nuestroEquipo__izquierda {
+                padding: 1.5rem 2rem;
+
+                h4 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+
+            .nuestroEquipo__derecha {
+                .carousel-inner {
+                    .carousel-capt {
+                        top: 18%;
+                        padding-top: 4.5rem;
+                        padding-bottom: 4.5rem;
+
+                        h2 {
+                            font-size: 1.2rem;
+                        }
+                    }
+
+                    .img-1,
+                    .img-2,
+                    .img-3 {
+                        height: 60vh;
+                        min-height: 60vh;
+                    }
+                }
+            }
+        }
+
+        .nuestroEquipoSegundaParte {
+            .nuestroEquipo__arriba {
+                text-align: justify;
+                padding: 1.5rem 3rem;
+
+                p {
+                    line-height: 1.8;
+                    font-size: 0.9rem;
+                }
+            }
+
+            .nuestroEquipo__abajo {
+                display: flex;
+                flex-direction: column;
+
+                .nuestroEquipo-capt {
+                    position: relative;
+                    height: auto;
+                    padding: 1rem;
+                    margin: 5rem 2rem;
+
+                    h2 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .img-4,
+                .img-5 {
+                    height: 50vh;
+                    min-height: 50vh;
+                }
+            }
+        }
+    }
+
+    /*======== N U E S T R O  S E R V I C I O ========*/
+    .nuestrosServicios {
+        .nuestrosServiciosPrimeraParte {
+            display: grid;
+            grid-column: 100% 100%;
+
+            .nuestrosServicios__izquierda {
+                .carousel-inner {
+                    .carousel-capt {
+                        top: 18%;
+                        padding-top: 4.5rem;
+                        padding-bottom: 4.5rem;
+
+                        h2 {
+                            font-size: 1.2rem;
+                        }
+                    }
+
+                    .img-6,
+                    .img-7,
+                    .img-8 {
+                        height: 70vh;
+                        min-height: 60vh;
+                    }
+
+                    .img-8 {
+                        background-image: url("../multimedia/nuestros-servicios-365-portraid.png")
+                    }
+                }
+            }
+
+            .nuestrosServicios__derecha {
+                padding: 1.5rem 2rem 0 2rem;
+
+                h4 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .nuestrosServiciosSegundaParte {
+            padding: 0rem 1rem;
+
+            .card {
+                height: auto;
+                padding: 0.7rem;
+                margin-bottom: 1rem;
+
+                &:hover {
+                    transform: none;
+                    transition: none;
+                    box-shadow: -1px 0px 16px -6px rgba(61, 92, 135, 1);
+                    background-color: rgb(202, 223, 231);
+                }
+
+                .card-img {
+                    object-fit: cover;
+                    height: 30vh;
+                    border-radius: 1rem;
+                }
+
+                .card-body {
+                    height: auto;
+                    padding: .5rem;
+
+                    .card-title {
+                        font-size: 1rem;
+                        margin-top: .7rem;
+                    }
+
+                    .card-text {
+                        font-size: .8rem;
+                    }
+                }
+            }
+
+        }
+
+        .nuestrosServiciosTerceraParte {
+            text-align: justify;
+            padding: 1.5rem 3rem;
+
+            p {
+                line-height: 1.8;
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    /*======== L O G Í S T I C A ========*/
+    .logistica {
+        .logisticaPrimeraParte {
+            display: grid;
+            grid-column: 100% 100%;
+
+            .logistica__izquierda {
+                padding: 1.5rem 2rem;
+
+                h4 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+
+            .logistica__derecha {
+                .carousel-inner {
+                    .carousel-capt {
+                        top: 18%;
+                        padding-top: 4.5rem;
+                        padding-bottom: 4.5rem;
+
+                        h2 {
+                            font-size: 1.2rem;
+                        }
+                    }
+
+                    .img-9,
+                    .img-10,
+                    .img-11,
+                    .img-12 {
+                        height: 65vh;
+                        min-height: 65vh;
+                    }
+
+                    .img-12 {
+                        background-image: url("../multimedia/logistica-proceso-365-portraid.png")
+                    }
+                }
+            }
+        }
+    }
+
+    /*======== P R E G U N T A S  F R E C U E N T E S ========*/
+    .preguntasFrecuentes {
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        .card {
+            border-top: 1px solid $azul !important;
+
+            .card-header {
+                background-color: $azul !important;
+
+                .btn {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+    /*======== C O N T A C T A N O S ========*/
+    .contactanos {
+        padding: 1.5rem 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+
+        .contactanos__izquierda {
+            h4 {
+                font-size: 1.15rem;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+
+            p {
+                padding: 1rem 3rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        .contactanos__derecha {
+            .filas {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                .primeraFila,
+                .segundaFila,
+                .terceraFila {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .izquierda {
+                        margin-right: 0rem;
+                    }
+
+                    .derecha {
+                        margin-left: 0rem;
+                    }
+                }
+            }
+
+            .botones {
+                min-width: 8rem;
+                font-size: .8rem;
+            }
+        }
+    }
+
+    /*======== F O O T E R ========*/
+    .footer {
+        background-size: cover;
+        background-position: bottom right;
+        background-image: url("../multimedia/footer-chico.png");
+        height: 35vh;
+
+        .iconos {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: repeat(2, 1fr);
+
+            position: relative;
+            top: 25%;
 
             .icono {
 
