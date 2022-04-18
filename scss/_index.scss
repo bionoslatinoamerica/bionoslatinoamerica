@@ -10,31 +10,27 @@
     
     .contenedorBotones{
         display: flex;
-        flex-direction: column;
+        padding-top: 15%;
         justify-content: center;
         align-items: center;
         height: 100%;
 
-        .profesionales, .pacientes{
+        .pacientes{
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 1rem;
         }
 
-        .profesionales{
-            margin-top: 17rem;
-        }
-
         .botones{
-            min-width: 11.25rem;
-            height: 3.125rem;
-            color: $celeste;
+            min-width: 12rem;
+            height: 3.5rem;
+            color: #088cd8;
             border-radius: 1.5625rem;
             border: none;
-            background-color: $blanco;
-            font-weight: $font-bold;
-            font-size: $smaller-font-size;
+            background-color: #fdfdfd;
+            font-weight: 800;
+            font-size: 1.2rem;
             text-transform: uppercase;
             &:hover{
                 background-color: $celeste;

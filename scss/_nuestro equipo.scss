@@ -8,12 +8,13 @@
     .nuestroEquipoPrimeraParte{
         display: flex;
         background-color: $gris;
-    
+        justify-content: center;
+        align-items: center;
         .nuestroEquipo__izquierda{
             flex: 40%;
             justify-content: center;
             align-items: center;
-            padding: 1.5rem 2rem;
+            padding: 1.5rem 4rem;
     
             h4{
                 color: $cian;
@@ -81,7 +82,7 @@
                     background-position: center;
                     background-size: cover;
                     height: 80vh;
-                    min-height: 100vh;
+                    min-height: 80vh;
                     background-attachment: scroll;
                 }
             }
@@ -131,7 +132,7 @@
                 background-color: rgb(9, 48, 70, 0.7);
                 position: relative;
                 height: 13rem;
-                top: 18%;
+                top: 25%;
                 z-index: 10;
                 padding: 2rem;
                 margin: 0 6rem;

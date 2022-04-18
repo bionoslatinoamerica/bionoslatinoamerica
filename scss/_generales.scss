@@ -6,15 +6,20 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-} //scroll suave
-
 body{
 
     line-height: 1.6;
     overflow-x: hidden;
+    &::-webkit-scrollbar{
+        width: 0.4rem;
+        background-color: $gris; 
+    }
+    &::-webkit-scrollbar-thumb{
+        background: $cian;
+        border-radius: 5px;
+    }
 }
+
 
 ul{
     list-style: none;
