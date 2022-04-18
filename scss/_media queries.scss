@@ -1,6 +1,6 @@
 /*======== M E D I A  Q U E R I E S ========*/
 
-@media screen and (min-width: 1200px) and (max-width: 1494px) {
+@media screen and (min-width: 1200px) and (max-width: 1496px) {
 
 
     /*======== N U E S T R O  E Q U I P O ========*/
@@ -49,11 +49,11 @@
         background-size: cover;
         background-position: top;
         background-image: url("../multimedia/footer-chico.png");
-        height: 40vh;
+        height: 42vh;
 
         .iconos {
             position: relative;
-            top: 20%;
+            top: 28%;
             .icono {
 
                 a {
@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
     /*======== M E N U ========*/
 
@@ -771,7 +771,7 @@
 
         .iconos {
             position: relative;
-            top: 30%;
+            top: 20%;
 
             .icono {
 
@@ -1827,7 +1827,7 @@
         background-size: cover;
         background-position: top right;
         background-image: url("../multimedia/footer-chico.png");
-        height: 40vh;
+        height: 45vh;
         padding-left: 2.5rem;
 
         .iconos {
@@ -1836,7 +1836,7 @@
             grid-template-rows: repeat(2, 1fr);
 
             position: relative;
-            top: 5%;
+            top: 2%;
 
             .icono {
 
@@ -2204,7 +2204,7 @@
         background-size: cover;
         background-position: top;
         background-image: url("../multimedia/footer-chico.png");
-        height: 38vh;
+        height: 45vh;
         padding-left: 2rem;
 
         .iconos {
@@ -2213,7 +2213,7 @@
             grid-template-rows: repeat(2, 1fr);
 
             position: relative;
-            top: 0%;
+            top: 5%;
 
             .icono {
 
@@ -2587,7 +2587,7 @@
             grid-template-rows: repeat(2, 1fr);
 
             position: relative;
-            top: -8%;
+            top: -14%;
 
             .icono {
 
